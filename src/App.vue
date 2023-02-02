@@ -1,19 +1,15 @@
 <template>
     <header>
-        <routerLink to="/">
+        <router-link to="/">
             <h1>Vue<span>Movies</span></h1>
-        </routerLink>
+        </router-link>
     </header>
-
     <main>
-        <router-view>
-
-        </router-view>
+       <router-view/>
     </main>
-
-    <footer></footer>
 </template>
-<script>
+<script setup>
+
 </script>
 
 <style>
